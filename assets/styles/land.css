@@ -1,0 +1,433 @@
+@import url(/assets/fonts/iransans/css/fontiran.css);
+
+/*
+ * Globals
+ */
+
+html {
+    height: 100%;
+}
+body{
+    line-height: 25px;
+    background: -moz-radial-gradient(center, ellipse cover 100%, #6ab1e0 0%, #1c6da3 100%) ; /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover 100%, #6ab1e0 0%,#1c6da3 100%)  ; /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #6ab1e0 0%,#1c6da3 100%)  ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ab1e0', endColorstr='#1c6da3',GradientType=1 ) ; /* IE6-9 fallback on horizontal gradient */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.landPage{
+    padding-top:10%;
+}
+
+.friend{
+    color: #FFDC00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mobileInput{
+    padding: 8px;
+    border: thin white solid;
+    background-color: #3784b8;
+    color: white;
+    font-family: IRANSans !important;
+}
+
+.mobileInputComment{
+    padding: 8px;
+    border: thin white solid;
+    background-color: white;
+    color: #3784b8;
+    font-size: 15px;
+    font-family: IRANSans !important;
+}
+
+.margin10{
+    margin: 10px;
+}
+
+
+.container-margin{
+    margin: 15px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    font-size: 14px;
+    font-family: IRANSans !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    font-size: 14px;
+    font-family: IRANSans !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+    font-size: 14px;
+    font-family: IRANSans !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+    font-size: 14px;
+    font-family: IRANSans !important;
+}
+
+.robotMessage{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+}
+body {
+    color: #fff;
+    text-align: center;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+    /*-webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);*/
+    /*box-shadow: inset 0 0 5rem rgba(0,0,0,.5);*/
+}
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+    padding: 2rem;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: bold;
+    color: rgba(255,255,255,.5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255,255,255,.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: right;
+    }
+    .nav-masthead {
+        float: right;
+    }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+    padding: 0 1.5rem;
+}
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+    color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 40em) {
+    /* Pull out the header and footer */
+    .masthead {
+        position: fixed;
+        top: 0;
+    }
+    .mastfoot {
+        position: fixed;
+        bottom: 0;
+    }
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+    /* Handle the widths */
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
+}
+
+@media (min-width: 62em) {
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 42rem;
+    }
+}
+
+body {
+    font-family: IRANSans !important;
+    font-weight: 300;
+    direction: rtl;
+    background-color: #E2E2E2;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6,input, textarea, label, button, li, ol, span, ul {
+    font-family: IRANSans !important;
+}
+h1 {
+    font-weight: bold;
+}
+
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.ltr {
+    direction: ltr;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-small {
+    font-size: 0.8em;
+}
+.text-xsmall {
+    font-size: 0.6em;
+}
+.text-large {
+    font-size: 1.2em;
+}
+.text-xlarge {
+    font-size: 1.4em;
+}
+.text-underline {
+    text-decoration:underline;
+}
+.text-ultralight {
+    font-weight: 200;
+}
+.text-light {
+    font-weight: 300;
+}
+.text-regular {
+    font-weight: normal;
+}
+.text-medium {
+    font-weight: 500;
+}
+.text-bold {
+    font-weight: bold;
+}
+blockquote {
+    font-weight: 500;
+    padding: 10px;
+    border: 1px dashed #666666;
+}
+
+.mainbox {
+    width: 100%;
+    background-color: #EFEFEF;
+    display: table;
+    margin-bottom: 30px;
+    border-right: 8px solid #FFFF33;
+}
+
+.mainboxnegativ {
+    width: 100%;
+    background-color: #000000;
+    display: table;
+    margin-bottom: 30px;
+    border-right: 8px solid #FFFF33;
+    color: #F9F9F9;
+}
+
+.mainbox2 {
+    font-size: 1em;
+    width: 90%;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainbox3 {
+    width: 100%;
+    background-color: #b8b8b8;
+    display: table;
+    margin-bottom: 30px;
+    border-right: 8px solid #bd70ff;
+}
+
+.mainbox2negativ {
+    font-size: 1em;
+    color: #F9F9F9;
+    background-color: #000000;
+    padding-right: 20px;
+}
+
+.farsiparagraph {
+    font-size: 1em;
+    width: 47%;
+    float:right;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.englishparagraph {
+    font-size: 1em;
+    width: 47%;
+    float: left;
+    direction:ltr;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.rightbox {
+    width: 60%;
+    padding-right: 20px;
+    padding-left: 5px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    min-width: 0px;
+    background-color: #F7F7F7;
+
+}
+
+.titelbox {
+    width: 60%;
+    padding-right: 25px;
+    padding-left: 0px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    min-width: 0px;
+    background-color: #F2F2F2;
+    color: #4B4B4B;
+}
+
+
+.lefttbox {
+
+    padding-right: 20px;
+    padding-left: 4px;
+    float: right;
+    margin-bottom: 10px;
+    min-width: 0px;
+}
+
+.alphabet {
+    width: 35%;
+    float: left;
+    font-size: 21em;
+    text-align: center;
+    font-weight: 500;
+    color: #999999;
+}
+
+.alphabet2 {
+    width: 35%;
+    float: left;
+    direction: ltr;
+    font-size: 1.6em;
+    text-align: left;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 100px;
+}
+.footer {
+    font-weight: 300;
+    font-size: 0.7em;
+    text-align: center;
+    direction: ltr;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.blueLight {
+    color: #addbf7;
+}

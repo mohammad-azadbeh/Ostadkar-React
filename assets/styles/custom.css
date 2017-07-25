@@ -1,0 +1,178 @@
+@import url(/assets/fonts/iransans/css/fontiran.css);
+
+html, body {
+    font-family: IRANSans;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: IRANSans;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.tooltip {
+    font-family: IRANSans;
+}
+
+.popover {
+    font-family: IRANSans;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.ok-wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .ok-wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .ok-wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .ok-wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ok-wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    .ok-wrapper {
+        width: 540px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ok-wrapper {
+        width: 720px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .ok-wrapper {
+        width: 960px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ok-wrapper {
+        width: 1140px;
+        max-width: 100%;
+    }
+}
+
+.ok-text-blue {
+    color: #0061b3;
+}
+
+.ok-text-title {
+    color: #00a4eb;
+}
+
+.ok-text-dark-gray {
+    color: #4a4a4a;
+}
+
+.ok-text-light-gray {
+    color: #666666;
+}
+
+/**************************************  Categories Section styles  **************************************/
+
+.categories-section {
+    font-family: IRANSans;
+    position: relative;
+    background: #f3f0f0;
+}
+
+.category-item-icon {
+    height: 40px;
+}
+
+.categories-container {
+    border: 1px solid #b0b7c2;
+    border-radius: 8px;
+}
+
+/**************************************  Customer App Download styles  **************************************/
+
+.customer-app-download-section {
+    font-family: IRANSans;
+    position: relative;
+    padding: 40px 0 100px 0;
+    background: rgba(11, 169, 240, 0.83);
+}
+
+.customer-app-download-section::before {
+    content: "";
+    background: url("../images/customer-app-download-bg.jpg") no-repeat center bottom;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.customer-app-download-section-btn {
+    height: 48px;
+}
+
+.customer-app-download-section-phones {
+    max-height: 450px;
+    max-width: 100%;
+}
+
+/**************************************  For Pros Section styles  **************************************/
+
+.for-pros-section-main-img {
+    max-height: 350px;
+    max-width: 100%;
+}
+
+.for-pros-section-btn {
+    border-radius: 5px;
+}
